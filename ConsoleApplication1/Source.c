@@ -13,7 +13,7 @@ void reversArrayOfCharRecusively(char* arr, int size)
 			arr[i] = arr[i + 1];
 			arr[i + 1] = swap;
 		}
-		ReceiveArrayOfChar(arr, size - 1);
+		reversArrayOfCharRecusively(arr, size - 1);
 	}
 	
 }
